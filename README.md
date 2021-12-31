@@ -3,9 +3,9 @@ Grid functionality such as Sorting, filtering, multi-select check-Box, paginator
 
 ### **Software's required to Design application are:**
 
-***1.Visual Studio Code : Angular UI design***
-***2.MySQL WorkBench : Database Management***
-***3.Visual Studio 2019 : ASP.NET Core WebApi***
+*1.Visual Studio Code : Angular UI design*
+*2.MySQL WorkBench : Database Management*
+*3.Visual Studio 2019 : ASP.NET Core WebApi*
 
 ### Required Library's to Design UI are:
 ***Prime-NG: Prime-NG is a open source Library of Angular***

@@ -13,11 +13,11 @@ Grid functionality such as Sorting, filtering, multi-select check-Box, paginator
 ### Commands used for Installing Prime-NG Angular packages for UI Design are:
  ***1. npm install primeng@11.4.2***
  ***2. npm install primeicons --save***
- ***3. ng add @ng-bootstrap/ng-bootstrap***
+ *****3. ng add @ng-bootstrap/ng-bootstrap*****
  
 ### **Packages used for run .Net WEB-API with Mysql WorkBench are:**
-***1. MySql.Data : Installed from NuGet Package manager in .Net WEB_API application
-***2. MySqlConnector: Installed from NuGet Package manager in .Net WEB_API application
+*****1. MySql.Data : Installed from NuGet Package manager in .Net WEB_API application*****
+*****2. MySqlConnector: Installed from NuGet Package manager in .Net WEB_API application*****
 
 ### **Employee Data**
 ![Grid_SS1](https://user-images.githubusercontent.com/53462568/147820054-27b54105-1d29-4829-ace5-734e7dc584ff.png)

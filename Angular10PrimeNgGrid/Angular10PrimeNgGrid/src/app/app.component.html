@@ -1,0 +1,69 @@
+
+
+<div class="container" id="commonGridStyle" style="padding:50px;border-radius: 50px;">
+  <h1 style="text-align: center;font-weight: bold;font-size: 50px;padding: 40px;">Employee Data</h1>
+  <p-table #gridDesign1 [value]="EmployeeList" [rowHover]="true" [paginator]="true" [rows]="5" 
+    styleClass="p-datatable-sm p-datatable-gridlines">
+    <ng-template pTemplate="header" >
+      <tr>
+        <th  class="col-width" style="width: 3rem">
+          <p-tableHeaderCheckbox></p-tableHeaderCheckbox>
+      </th>
+        <th class="col-width" pSortableColumn="employeeId">Employee Id
+          <p-sortIcon field="employeeId"></p-sortIcon>
+        </th>
+        <th class="col-width" pSortableColumn="employeeName">Employee Name
+          <p-sortIcon field="employeeName"></p-sortIcon>
+        </th>
+
+        <th class="col-width" pSortableColumn="employeeSalary">Employee Salary
+          <p-sortIcon field="employeeSalary"></p-sortIcon>
+        </th>
+        <th class="col-width" pSortableColumn="employeeContactNumber">Contact Number
+          <p-sortIcon field="employeeContactNumber"></p-sortIcon>
+        </th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>
+          <input type="text" 
+          pInputText (input)="gridDesign1.filter($event.target.value, 'employeeId', 'contains')" 
+          placeholder="Search" class="inputDes"/>
+        </th>
+        <th>
+          <input type="text" 
+          pInputText (input)="gridDesign1.filter($event.target.value, 'employeeName', 'contains')" 
+          placeholder="Search" class="inputDes"/>
+        </th>
+        <th>
+          <input type="text" 
+          pInputText (input)="gridDesign1.filter($event.target.value, 'employeeSalary', 'contains')" 
+          placeholder="Search" class="inputDes"/>
+        </th>
+        <th>
+          <input type="text" 
+          pInputText (input)="gridDesign1.filter($event.target.value, 'employeeContactNumber', 'contains')" 
+          placeholder="Search" class="inputDes"/>
+        </th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-EmployeeList>
+      <tr>
+        <td>
+          <p-tableCheckbox [value]="EmployeeList"></p-tableCheckbox>
+      </td>
+       <td>{{EmployeeList.employeeId}}</td>
+       <td>{{EmployeeList.employeeName}}</td>
+       <td>{{EmployeeList.employeeSalary}}</td>
+       <td>{{EmployeeList.employeeContactNumber}}</td>
+       
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="paginatorleft">
+      <p-button type="button"  styleClass="p-button-text"></p-button>
+  </ng-template>
+  <ng-template pTemplate="paginatorright">
+      <p-button type="button" styleClass="p-button-text"></p-button>
+  </ng-template>
+  </p-table>
+</div>

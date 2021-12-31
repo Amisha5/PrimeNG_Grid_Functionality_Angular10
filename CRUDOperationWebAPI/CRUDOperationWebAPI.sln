@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDOperationWebAPI", "CRUDOperationWebAPI\CRUDOperationWebAPI.csproj", "{C5EDC507-8040-4321-8A2A-8D978EFD208A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5EDC507-8040-4321-8A2A-8D978EFD208A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5EDC507-8040-4321-8A2A-8D978EFD208A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5EDC507-8040-4321-8A2A-8D978EFD208A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5EDC507-8040-4321-8A2A-8D978EFD208A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76CC2BEC-8633-4636-B5B3-70A234E46D43}
+	EndGlobalSection
+EndGlobal

@@ -8,7 +8,7 @@ Grid functionality such as Sorting, filtering, multi-select check-Box, paginator
 *3.Visual Studio 2019 : ASP.NET Core WebApi*  
 
 ### Required Library's to Design UI are:
-*Prime-NG: Prime-NG is a open source Library of Angular*    
+ **Prime-NG:** *Prime-NG is a open source Library of Angular*    
 
 ### Commands used for Installing Prime-NG Angular packages for UI Design are:
 
